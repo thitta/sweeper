@@ -1,0 +1,19 @@
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+
+<GridPane fx:controller="tw.someone.sweeper.controller.Home"
+          fx:id="uiContainer"
+          xmlns:fx="http://javafx.com/fxml" alignment="center"
+          stylesheets="/css/css.css"
+          hgap="20" vgap="20" gridLinesVisible="false"
+>
+
+    <HBox GridPane.rowIndex="0" alignment="center">
+        <Button styleClass="mainBtn,mainBtnNormal" fx:id="uiMainButton" onAction="#restartGame"/>
+    </HBox>
+
+    <GridPane GridPane.rowIndex="1" fx:id="uiBoardContainer">
+    </GridPane>
+
+</GridPane>

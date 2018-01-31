@@ -1,0 +1,31 @@
+.mainBtn{
+    -fx-pref-height:35px;
+    -fx-pref-width: 35px;
+    -fx-background-size: 20 20;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position:center;
+}
+.mainBtnNormal   {-fx-background-image: url("/images/normal.png" )}
+.mainBtnFail     {-fx-background-image: url("/images/fail.png"   )}
+.mainBtnSucceed  {-fx-background-image: url("/images/succeed.png")}
+
+.gridBtn{
+    -fx-font-weight: bold;
+    -fx-pref-height:28px;
+    -fx-pref-width: 30px;
+    -fx-background-size: 15 15;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position:center;
+}
+.gridBtnDanger  {-fx-background-image: url("/images/danger.png" )}
+.gridBtnBomb    {-fx-background-image: url("/images/bomb.png" )}
+.gridBtnFlag    {-fx-background-image: url("/images/flag.png" )}
+.text-color-0{-fx-text-fill: #999999}
+.text-color-1{-fx-text-fill: #0000FF}
+.text-color-2{-fx-text-fill: #006600}
+.text-color-3{-fx-text-fill: #FF0000}
+.text-color-4{-fx-text-fill: #6600CC}
+.text-color-5{-fx-text-fill: #663300}
+.text-color-6{-fx-text-fill: #000066}
+.text-color-7{-fx-text-fill: #FF9933}
+.text-color-8{-fx-text-fill: #000000}
